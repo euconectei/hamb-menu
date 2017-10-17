@@ -1,0 +1,21 @@
+.hamb-menu {
+  &_icon {
+    #line1, #line2, #line3 {
+      transition: all .3s ease;
+      transform-origin: 50% 50%;
+    }
+
+    &.close {
+      #line1 {
+        transform: translate(0, 2.5px) rotate(45deg);
+      }
+      #line2 {
+        opacity: 0;
+        transform: translate(5px, 0) rotate(90deg);
+      }
+      #line3 {
+        transform: translate(0, -2.5px) rotate(-45deg);
+      }
+    }
+  }
+}
