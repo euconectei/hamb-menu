@@ -7,9 +7,9 @@
   }
 
   function toggleClass() {
-    icon.classList.toggle('close');
+    icon.classList.toggle('opened');
   }
 
-  multiEvent(icon, 'touchend click', toggleClass)
+  multiEvent(icon, 'touch click', toggleClass)
 
 }());
